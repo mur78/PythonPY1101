@@ -1,5 +1,8 @@
 type: theory
 files:
+- name: __init__.py
+  visible: false
+  learner_created: false
 - name: main.py
   visible: true
   text: |
@@ -17,9 +20,6 @@ files:
 
         print(f"Сумма с использованием выражения генератора: {sum(squares_gen)}")
         print(f"Сумма с использованием списка: {sum(squares_list)}")
-  learner_created: false
-- name: __init__.py
-  visible: false
   learner_created: false
 status: Solved
 feedback:

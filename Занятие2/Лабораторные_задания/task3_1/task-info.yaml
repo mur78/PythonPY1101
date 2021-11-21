@@ -15,7 +15,7 @@ files:
     encrypted_possible_answer: |-
       if not arg > 0:
                   raise ValueError("Аргумент функции не является положительным числом")
-  - offset: 285
+  - offset: 305
     length: 45
     placeholder_text: '# TODO задекорировать функцию'
     initial_state:
@@ -51,6 +51,6 @@ files:
   learner_created: false
 status: Solved
 feedback:
-  time: Tue, 16 Nov 2021 16:58:08 UTC
+  time: Sun, 21 Nov 2021 17:29:11 UTC
 record: -1
 post_submission_on_open: true

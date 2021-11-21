@@ -19,5 +19,5 @@ def return_tuple() -> str:
 
 
 if __name__ == "__main__":
-    return_list()
-    return_tuple()
+    return_list("1", "3")
+    return_tuple("1", "7")

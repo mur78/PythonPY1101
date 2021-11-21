@@ -1,5 +1,13 @@
 type: output
 files:
+- name: __init__.py
+  visible: false
+  learner_created: false
+- name: tests/output.txt
+  visible: false
+  text: |
+    9
+  learner_created: false
 - name: main.py
   visible: true
   placeholders:
@@ -29,16 +37,8 @@ files:
     if __name__ == "__main__":
         print(task())
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
-- name: tests/output.txt
-  visible: false
-  text: |
-    9
-  learner_created: false
 status: Solved
 feedback:
   message: Congratulations!
-  time: Tue, 16 Nov 2021 16:10:43 UTC
+  time: Sun, 21 Nov 2021 15:26:53 UTC
 record: -1

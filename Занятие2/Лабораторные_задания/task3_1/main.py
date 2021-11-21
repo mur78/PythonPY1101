@@ -5,6 +5,7 @@ def positive_check(fn):
             raise ValueError("Аргумент функции не является положительным числом")
 
         result = fn(arg)
+        print("Ok")
         return result
 
     return wrapper
@@ -17,6 +18,7 @@ def some_func(num: int):
 
 
 if __name__ == "__main__":
+
     some_func(5)  # всё хорошо
 
     some_func(-5)  # должна быть вызвана ошибка ValueError
