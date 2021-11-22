@@ -1,21 +1,19 @@
-def output_type_list(fn):
+def output_type_int(fn):
     def wrapper(*args, **kwargs):
 
         result = fn(*args, **kwargs)
-        if not isinstance(result, list):
-            raise TypeError(f"Результатом выполнения функции {fn} должен быть список")
+        if not isinstance(result, int):
+            raise TypeError("Объект <название или номер позиционного аргумента> <значение аргумента> не является итерируемым")
+
 
     return wrapper
 
 
-@output_type_list
-def return_list() -> list:
-    return []
+@output_type_int
+def return_int() -> int:
+    return
 
 
-@output_type_list
-def return_tuple() -> str:
-    return ""
 
 
 if __name__ == "__main__":
