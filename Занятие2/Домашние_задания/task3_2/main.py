@@ -23,4 +23,4 @@ if __name__ == "__main__":
 
     some_func(5, 7)
 
-    some_func("7", "tn")
+    #some_func("7", "tn")

@@ -11,11 +11,11 @@ def output_type_int(fn):
 
 @output_type_int
 def return_int() -> int:
-    return
+    pass
 
 
 
 
 if __name__ == "__main__":
-    return_list("1", "3")
-    return_tuple("1", "7")
+    return_int(t1 = 1, 3)
+    return_int("1", "7")
