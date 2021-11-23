@@ -5,7 +5,7 @@ def pairwise(iterable):
 
 def task():
     for pair in pairwise(pts):
-        print(pair)
+      z = map()
 
 
 if __name__ == "__main__":

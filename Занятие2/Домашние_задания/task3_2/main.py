@@ -2,6 +2,8 @@
 def positive_check_int(fn):
     def wrapper(*args):
         # TODO написать проверку положительности аргумента arg
+        #map
+        z = map(int, *args)
 
         result = fn(*args)
 

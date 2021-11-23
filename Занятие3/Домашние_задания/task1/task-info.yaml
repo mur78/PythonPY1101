@@ -13,5 +13,15 @@ files:
 - name: tests/output.txt
   visible: false
   learner_created: false
-status: Unchecked
+- name: n1
+  visible: true
+  learner_created: true
+- name: n2
+  visible: true
+  learner_created: true
+status: Failed
+feedback:
+  message: Incorrect
+  time: Tue, 23 Nov 2021 18:11:13 UTC
+  actual: <no output>
 record: -1

@@ -1,17 +1,16 @@
 from itertools import count
 
-def task():
-    for i in count(2, 1):
-        q = 2
+
+
+def task(q):
+      for i in count(2, 1):
         z = i - 1
         # TODO с помощью yield до бесконечности
-        yield z ** q
-
-
+        yield q ** z
 
 
 if __name__ == "__main__":
-    numbers = task()
+    numbers = task(int(input("Введите q: ")))
 
     for _ in range(11):
         print(next(numbers))
